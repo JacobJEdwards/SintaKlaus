@@ -1,0 +1,33 @@
+{
+  "originHash" : "c40b8f1a9d55e3c9e82b285784e48992c93ec264296eec5dd8f84e666f737354",
+  "pins" : [
+    {
+      "identity" : "chesskit-engine",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/chesskit-app/chesskit-engine",
+      "state" : {
+        "revision" : "8975c9f1af6306cee48a2ba1e8df7d214e78e1d8",
+        "version" : "0.5.0"
+      }
+    },
+    {
+      "identity" : "realitykit-text",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Reality-Dev/RealityKit-Text",
+      "state" : {
+        "revision" : "ebb471c9f84c80cc56d913d9395291252f8ab3b8",
+        "version" : "1.0.31"
+      }
+    },
+    {
+      "identity" : "swift-system",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-system.git",
+      "state" : {
+        "revision" : "c8a44d836fe7913603e246acab7c528c2e780168",
+        "version" : "1.4.0"
+      }
+    }
+  ],
+  "version" : 3
+}

@@ -175,6 +175,11 @@
 			);
 			mainGroup = 4992B9782CE4DE3E00F3607B;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4992B9AF2CE4E52600F3607B /* XCRemoteSwiftPackageReference "RealityKit-Text" */,
+				494A5FF22CFB324E00DB23EB /* XCRemoteSwiftPackageReference "swift-system" */,
+				494A5FF32CFB37EA00DB23EB /* XCRemoteSwiftPackageReference "chesskit-engine" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 4992B9822CE4DE3E00F3607B /* Products */;
 			projectDirPath = "";
@@ -467,6 +472,33 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		494A5FF22CFB324E00DB23EB /* XCRemoteSwiftPackageReference "swift-system" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-system.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.0;
+			};
+		};
+		494A5FF32CFB37EA00DB23EB /* XCRemoteSwiftPackageReference "chesskit-engine" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/chesskit-app/chesskit-engine";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.0;
+			};
+		};
+		4992B9AF2CE4E52600F3607B /* XCRemoteSwiftPackageReference "RealityKit-Text" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Reality-Dev/RealityKit-Text";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.31;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		4992B9862CE4DE3E00F3607B /* RealityKitContent */ = {

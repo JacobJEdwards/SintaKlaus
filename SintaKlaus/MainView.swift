@@ -33,7 +33,7 @@ struct MainView: View {
                             .font(.headline)
                             .multilineTextAlignment(.center)
                             .padding()
-                        Text("Ik kan niet denken aan een coole manier om deze cadeau te onthullen, dus maar zeg dat je klaar bent en ik ga deze cadeau halen!")
+                        Text("Ik kan niet denken aan een coole manier om deze cadeau te onthullen, dus zeg maar  als je klaar bent en dan ga ik het cadeau halen!")
                     } else {
                         
                         Text("Druk de nummers in om je cadeau te krijgen")
@@ -60,7 +60,7 @@ struct MainView: View {
                         .padding()
                         
                         Button("Indienen") {
-                            if firstNumber == "43" && secondNumber == "20" && thirdNumber == "3" {
+                            if firstNumber.trimmingCharacters(in: .whitespacesAndNewlines) == "43" && secondNumber.trimmingCharacters(in: .whitespacesAndNewlines) == "20" && thirdNumber.trimmingCharacters(in: .whitespacesAndNewlines) == "3" {
                                 isComplete = true
                             }
                         }
